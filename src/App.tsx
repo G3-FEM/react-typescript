@@ -8,10 +8,10 @@ function App() {
     <div className="App">
       <section className="flex-layout">
         <NameTag name="Gayathri" active empId={1234} depts={["Fin", "Tech"]}/>
-        <Box>
+        <Box style={{color: 'green'}}>
         Just a string.
         <p>Some HTML that is not nested.</p>
-        <Box>
+        <Box style={{backgroundColor: '#ccc'}}>
           <h2>Another React component with one child.</h2>
         </Box>
         <Box>
