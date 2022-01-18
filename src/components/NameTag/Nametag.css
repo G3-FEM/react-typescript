@@ -1,0 +1,35 @@
+.name-tag {
+    width: 500px;
+    height:250px;
+    margin: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px #CCC;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.name-tag-header {
+    background-color: red;
+    border-radius: 25px 25px 0 0;
+    height: 70px;
+    color: white;
+}
+
+.name-tag-header h1,p {
+    margin: 0px;
+    padding: 5px;
+}
+
+.name-tag-main {
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-tag-footer {
+    height: 20px;
+    background-color: red;
+    border-radius: 0px 0px 25px 25px;
+}
