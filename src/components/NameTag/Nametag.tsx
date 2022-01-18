@@ -1,4 +1,4 @@
-import './Nametag.css';
+import './Nametag.scss';
 
 
 export type NameTagPros = {

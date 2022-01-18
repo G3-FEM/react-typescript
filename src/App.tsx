@@ -1,7 +1,9 @@
 import React from 'react';
 import NameTag from './components/NameTag/Nametag';
 import Box from './components/Box/Box';
-import './App.css';
+import Question from './components/Question/Question';
+import {questions} from './components/Question/Questions';
+import './App.scss';
 
 function App() {
   return (
@@ -19,6 +21,12 @@ function App() {
           <p>The second child.</p>
         </Box>
       </Box>
+      <section>
+      {questions.map((q) => (
+        <Question question={q.question} answer={q.answer} key={q.id} />
+      ))}
+    
+      </section>
       </section>
     </div>
   );
