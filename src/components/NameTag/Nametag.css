@@ -16,6 +16,10 @@
     color: white;
 }
 
+.active{
+    background-color: green;
+}
+
 .name-tag-header h1,p {
     margin: 0px;
     padding: 5px;
@@ -24,8 +28,13 @@
 .name-tag-main {
     height: 160px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.name-tag-display {
+  font-size: 40px;      
 }
 
 .name-tag-footer {
