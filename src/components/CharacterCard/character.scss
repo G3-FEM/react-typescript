@@ -1,0 +1,39 @@
+$primary-color: magenta;
+
+.character-header {
+    font-size: 2em;
+    padding: 0.25em 0;
+    text-align: center;
+    background-color: lighten($primary-color, 40);
+  }
+
+  .character-article {
+    border: 5px solid lighten($primary-color, 40%);
+    margin: 30px;
+    width: 300px;
+    box-shadow: 5px 5px 5px #ccc;
+    background-color: white;
+
+  }
+  
+  table {
+    width: 100%;
+    padding: 3em;
+  }
+  
+  tr {
+    width: 100%;
+  }
+  
+  th {
+    text-align: left;
+  }
+  
+  td {
+    text-align: right;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 2em 0;
+  }

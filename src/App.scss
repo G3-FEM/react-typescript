@@ -35,6 +35,11 @@
   flex-wrap: wrap;
 }
 
+.flex-item {
+  width: 40%;
+  margin: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
