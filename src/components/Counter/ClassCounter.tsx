@@ -1,5 +1,5 @@
 
-import React, { ChangeEvent, Component, EventHandler } from 'react';
+import React, { ChangeEvent, Component } from 'react';
 
 type ClassCounterProps = {
   incident: string

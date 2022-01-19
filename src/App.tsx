@@ -8,7 +8,9 @@ import { Loading } from './components/CharacterCard/Loading';
 import { CharacterInformation } from './components/CharacterCard/CharacterInformation';
 import Counter from './components/Counter/Counter';
 import ClassCounter from './components/Counter/ClassCounter';
+import HooksCounter from './components/Counter/HooksCounter';
 import './App.scss';
+import DogFacts from './components/DogFacts/DogFacts';
 
 function App() {
   const [character, setCharacter] = React.useState<CharacterType | null>(null);
@@ -53,6 +55,12 @@ function App() {
       </section>
       <section  className="flex-item">
         <ClassCounter incident='Spill Milk'/>
+      </section>
+      <section  className="flex-item">
+        <HooksCounter incident="Wet flooring"/>
+      </section>
+      <section  className="flex-item">
+        <DogFacts/>
       </section>
       </section>
     </div>
