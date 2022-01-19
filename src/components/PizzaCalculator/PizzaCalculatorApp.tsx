@@ -2,6 +2,7 @@ import { useReducer } from "react";
 import { Calculation } from "./PizzaCalculator";
 import Calculator from "./PizzaCalculator";
 import { reducer } from "./PizzaCalculatorReducer";
+import './PizzaCalculator.scss';
 
 export type PizzaData = {
     numberOfPeople: number;
