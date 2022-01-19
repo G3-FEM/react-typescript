@@ -11,6 +11,7 @@ import ClassCounter from './components/Counter/ClassCounter';
 import HooksCounter from './components/Counter/HooksCounter';
 import './App.scss';
 import DogFacts from './components/DogFacts/DogFacts';
+import PizzaCalculatorApp from './components/PizzaCalculator/PizzaCalculatorApp';
 
 function App() {
   const [character, setCharacter] = React.useState<CharacterType | null>(null);
@@ -61,6 +62,9 @@ function App() {
       </section>
       <section  className="flex-item">
         <DogFacts/>
+      </section>
+      <section  className="flex-item">
+        <PizzaCalculatorApp />
       </section>
       </section>
     </div>
